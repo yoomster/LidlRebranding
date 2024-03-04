@@ -1,0 +1,21 @@
+  /* body {
+    background-color: pink;
+  } */
+
+  .menu{
+    background-color: #4E7655;
+    display: block;
+    width: 20%;
+    float:left;
+    padding: 15px;
+    border: 1px;
+  
+    display:block;
+    width: 100%;
+  }
+
+  .recipe{
+    border: 1px solid red;
+    width:33%;
+    display:block;
+  }
