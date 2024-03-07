@@ -1,5 +1,59 @@
-  body {
+.header {
+  text-align: center;
+  background: #3f593f9f;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 3%;
+  max-height: 200px;
+  text-align: left; 
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between; 
+  padding: 20px; 
+  align-items: center;
+}
+
+.nav-bar{
+  display: flex;
+}
+
+  .nav-bar a {
+    /* background-color: #242424;  */
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+
+.logo{
+  top:0% ;
+  right: 5%;
+  display: flex;
+
+
+}
+
+body {
     margin: 25px;
+    height: 100%;
+    /* font-family: ; */
+  }
+
+  a{
+    color: #DDBD7D;
+  }
+
+
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #3f593f;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
   }
 
   .flex-container {
@@ -15,15 +69,18 @@
   .flex-container div {
     position: relative;
     height:500px;
-
-    width: 22%;
+    width: 20%;
     background-color:#3f593f;
+    color: white;
+    border-radius: 10px;
   }
 
   .flex-container img {
   /* .dish{ */
     position: absolute;
-    bottom: 0;
-    width: 300px;
+    width:100%;
+    bottom: 2%;
     height: 300px;
+    
   }
+
