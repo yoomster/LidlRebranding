@@ -28,6 +28,22 @@
   max-height: 150px;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Adjust the gap between video and text */
+  padding: 20px;
+  background-color: #f9f9f9; /* Background color of the container */
+}
+
+.video {
+  flex: 1; /* Make the video take up available space */
+}
+
+.text {
+  flex: 1; /* Make the text take up available space */
+}
+
 body {
     margin: 25px;
     height: 100%;
