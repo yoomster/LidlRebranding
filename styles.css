@@ -1,7 +1,21 @@
+@font-face {
+  font-family: 'Merriweather-Regular';
+  src: url("font/Merriweather-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Raleway-Thin';
+  src: url("font/Raleway-Thin.ttf");
+}
+
 body {
   margin: 25px;
   height: 100%;
-  /* font-family: ; */
+  font-family: "Merriweather-Regular";
+}
+
+h1, h2{
+  font-family:"Raleway-Thin";
 }
 
 a{
