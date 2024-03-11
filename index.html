@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+
     <title>Deze week bij Lidl</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
   <header class="header"> 
+    <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776; </span>
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
    
-      <h3>Per afdeling</h3>
+      <h1>Per afdeling</h1>
       <a href="#">Groente</a>
       <a href="#">Fruit</a>
       <a href="#">Zuivel</a>
@@ -28,120 +30,86 @@
       <a href="#">Wijn en bubbels</a>
       <a href="#">Bier en aperitieven</a>
       <a href="#">Diepvries</a>
-      <a href="#">Drogisterij</a>
-      <a href="#">Huishouden</a>
-      <a href="#">Huisdier</a>
 
-      <h3>Inspiratie</h3>
+      <h1>Inspiratie</h1>
       <a href="#">Recepten</a>
       <a href="#">To-go maaltijden</a>
 
-      <h3>Services</h3>
+      <h1>Services</h1>
       <a href="#">Carwash</a>
       <a href="#">Boek heli pad</a>
     </div>
-    <!-- <div class="nav-bar">
-        <a href="/pages/maaltijden.html">Maaltijden</a>
-        <a href="/pages/aanbiedingen.html">Aanbiedingen</a>
-        <a href="/pages/carwash.html">Car Wash</a>
-      </div> -->
-      <img class="logo" src="images/Logo.png" alt="logo Lidl">
+       <img class="logo" src="images/Logo.png" alt="logo Lidl">
   </header>
 
  
     
-  <!-- Use any element to open the sidenav -->
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-  <!-- <span onclick="openNav()">open</span> -->
-    
   <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
   <div id="main">
 
-      <div class="container">
-        <div class="video">
+    <div class="video-container">
+      <div class="video">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <div class="text">
-            <h2>Leer van onze pro chef hoe je dit gerecht zelf kan bereiden</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at semper metus. Integer at varius nulla. Sed ut nisl id purus tincidunt cursus.
-              <br> <br> Klik <a href="https://www.google.com/">hier</a>
-              om alle ingrediënten en het uitgeschreven recept te vinden.
-            </p>
-        </div>
       </div>
-
-      <div class="flex-container">
-          <div>
-            <h2>Duck breast</h2>
-            <p>Eenden borst met bieten puree. Klik 
-            <a href="https://www.google.com/">hier</a>
-            voor het recept.</p>
-            <img class="dish" src="images/DuckBreastBeetPuree.jpg" alt="dish with duck breast and beet puree">
-          </div>
-          
-          <div>
-            <h2>Black Angus</h2>
-            <p>Black Angus, aardappelen met kaas en truffel. Klik 
-              <a href="https://www.google.com/">hier</a>
-              voor het recept.</p>
-            <img class="dish" src="images/BlackAngus.jpg" alt="dish with Black Angus, potato" >
-          </div>
-
-          <div>
-              <h2>Zalm</h2>
-              <p>Zalm op een bedje van groentes. Klik 
-                <a href="https://www.google.com/">hier</a>
-                voor het recept.</p>
-              <img class="dish" src="images/Zalm.jpg" alt="dish with Salmon">
-          </div>
-          
-          <div>
-            <h2>Vegan Burger</h2> 
-            <p>Vegan Burger met asperges en Mango Chutney. Klik 
-              <a href="https://www.google.com/">hier</a>
-              voor het recept.</p>
-            <img class="dish" src="images/VeganBurger.jpg" alt="dish with Vegan Burger">
-          </div>
+      <div class="text">
+        <h1>Leer van onze pro chef hoe je dit gerecht zelf kan bereiden</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at semper metus. Integer at varius nulla. Sed ut nisl id purus tincidunt cursus.
+        <br> <br> Klik <a href="https://www.google.com/">hier</a>
+        voor alle ingrediënten en het recept.
+        </p>
       </div>
+    </div>
 
-      <div class="flex-container">
-        <div>
+    <div class="row"> 
+      <div class="column">
+        <div class="meal-container">
+          <img class="dish" src="images/DuckBreastBeetPuree.jpg" alt="Duck Breast Dish">
           <h2>Duck breast</h2>
-          <p>Eenden borst met bieten puree. Klik 
+          <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+          <p>Klik 
+            <a href="https://www.google.com/">hier</a>
+          voor het recept.</p>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="meal-container">
+          <img class="dish" src="images/BlackAngus.jpg" alt="Black Angus Dish">
+          <h2>Black Angus</h2>
+          <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+          <p>Klik 
           <a href="https://www.google.com/">hier</a>
           voor het recept.</p>
-          <img class="dish" src="images/DuckBreastBeetPuree.jpg" alt="dish with duck breast and beet puree">
         </div>
-        
-        <div>
-          <h2>Black Angus</h2>
-          <p>Black Angus, aardappelen met kaas en truffel. Klik 
-            <a href="https://www.google.com/">hier</a>
-            voor het recept.</p>
-          <img class="dish" src="images/BlackAngus.jpg" alt="dish with Black Angus, potato" >
-        </div>
+      </div>
 
-        <div>
-            <h2>Zalm</h2>
-            <p>Zalm op een bedje van groentes. Klik 
-              <a href="https://www.google.com/">hier</a>
-              voor het recept.</p>
-            <img class="dish" src="images/Zalm.jpg" alt="dish with Salmon">
+      <div class="column">
+        <div class="meal-container">
+          <img class="dish" src="images/Zalm.jpg" alt="Salmon Dish">
+          <h2>Zalm</h2>
+          <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+          <p>Klik 
+          <a href="https://www.google.com/">hier</a>
+          voor het recept.</p>
         </div>
-        
-        <div>
+      </div>
+
+      <div class="column">
+        <div class="meal-container">
+          <img class="dish" src="images/VeganBurger2.jpg" alt="Vegan Burger Dish">
           <h2>Vegan Burger</h2> 
-          <p>Vegan Burger met asperges en Mango Chutney. Klik 
-            <a href="https://www.google.com/">hier</a>
-            voor het recept.</p>
-          <img class="dish" src="images/VeganBurger.jpg" alt="dish with Vegan Burger">
+          <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+          <p>Klik 
+              <a href="https://www.google.com/">hier</a>
+          voor het recept.</p>
         </div>
+      </div>
     </div>
   </div>
-    
+   
 
     <footer>
-      <p>Algemene voorwaarden   Zakelijke algemene voorwaarden   Privacy beleid</p>
+      <p>Algemene voorwaarden Zakelijke algemene voorwaarden Privacy beleid</p>
       <address> 
         <p><a href="mailto:lidl@example.com">lidl@example.com</a></p>
       </address> 
