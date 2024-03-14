@@ -12,11 +12,14 @@ body {
   margin: 25px;
   height: 100%;
   font-family: "Merriweather-Regular";
+  color: white;
+  font-size: 25px;
 }
 
 h1, h2{
   font-family:"Raleway-Thin";
-  font-size: 35px;
+  font-size: 40px;
+  color: white;
 }
 
 a{
@@ -25,7 +28,6 @@ a{
 
 .header {
   background: #3f593f9f;
-  border-bottom: #3f593f9f;
   color: white;
   font-size: 30px;
   padding: 20px;
@@ -48,17 +50,18 @@ a{
   background-color:#748c74;
   color: white;
   border-radius: 10px;
-  margin: 20px;
+  height: 400px;
 }
 
 .video {
   flex: 1; 
   border-radius: 10px;
+  height: 350px;
 }
 
-.text {
+/* .text {
   flex: 1;
-}
+} */
 
 * {
   box-sizing: border-box;
