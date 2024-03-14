@@ -7,19 +7,29 @@
   font-family: 'Raleway-Thin';
   src: url("font/Raleway-Thin.ttf");
 }
+@font-face {
+  font-family: 'DancingScript-Regular';
+  src: url("font/DancingScript-Regular.ttf");
+}
 
 body {
-  margin: 25px;
+  margin: 5px;
   height: 100%;
   font-family: "Merriweather-Regular";
   color: white;
   font-size: 25px;
 }
 
-h1, h2{
+h1{
   font-family:"Raleway-Thin";
   font-size: 40px;
   color: white;
+}
+
+
+h2{
+  font-family: "DancingScript-Regular";
+  font-size: 35px;
 }
 
 a{
@@ -28,8 +38,6 @@ a{
 
 .header {
   background: #3f593f9f;
-  color: white;
-  font-size: 30px;
   padding: 20px;
   max-height: 200px;
   display: flex;
@@ -45,23 +53,23 @@ a{
 .video-container {
   display: flex;
   align-items: center;
-  gap: 15px; /*gap video and text  */
-  padding: 10px;
+  gap: 5px; /*gap video and text  */
+  padding: 5px;
+  margin: 20px;
   background-color:#748c74;
-  color: white;
-  border-radius: 10px;
-  height: 400px;
-}
-
-.video {
-  flex: 1; 
   border-radius: 10px;
   height: 350px;
 }
 
-/* .text {
+.video {
+  flex: 1; 
+  /* border-radius: 10px; */
+  height: 350px;
+}
+
+.text {
   flex: 1;
-} */
+}
 
 * {
   box-sizing: border-box;
@@ -83,7 +91,6 @@ a{
 
 .meal-container {
   background-color: #3f593f;
-  color: white;
   padding: 10px;
   border-radius: 10px;
 }
@@ -98,7 +105,6 @@ footer {
   text-align: center;
   padding: 3px;
   background: #3f593f;
-  color: white;
   position: fixed;
   bottom: 0;
   left: 0;
