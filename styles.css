@@ -17,19 +17,20 @@ body {
   height: 100%;
   font-family: "Merriweather-Regular";
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 h1{
   font-family:"Raleway-Thin";
-  font-size: 40px;
+  font-size: 30px;
   color: white;
 }
 
 
 h2{
   font-family: "DancingScript-Regular";
-  font-size: 35px;
+  font-size: 30px;
+  margin: 12px;
 }
 
 a{
@@ -37,7 +38,7 @@ a{
 }
 
 .header {
-  background: #3f593f9f;
+  background: #D9E7CB;
   padding: 20px;
   max-height: 200px;
   display: flex;
@@ -50,6 +51,40 @@ a{
   margin-left: auto;
 }
 
+.sidenav {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  color: #131F0D;
+  background-color: #D9E7CB; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; 
+  transition: 0.5s; 
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #3f593f;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color:#DDBD7D;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
 .video-container {
   display: flex;
   align-items: center;
@@ -86,7 +121,7 @@ a{
 
 .column {
   float: left;
-  width: 25%;
+  width: 25%; /*change to 20% for showing 5rows in a column  */
 }
 
 .meal-container {
@@ -104,50 +139,19 @@ a{
 footer {
   text-align: center;
   padding: 3px;
-  background: #3f593f;
+  background: #55624C;
+  color: #D9E7CB;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
 }
 
-.sidenav {
-  height: 100%; 
-  width: 0; 
-  position: fixed; 
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  color: #3f593f;
-  background-color: #b6b6b6; 
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; 
-  transition: 0.5s; 
-}
 
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #3f593f;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color:#DDBD7D;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
   transition: margin-left .5s;
   padding: 40px;
+  margin-left: 225px
 }
