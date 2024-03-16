@@ -18,6 +18,7 @@ body {
   font-family: "Merriweather-Regular";
   color: white;
   font-size: 20px;
+  background-color: #3f593f;
 }
 
 h1{
@@ -38,12 +39,12 @@ a{
 }
 
 .header {
-  background: #D9E7CB;
   padding: 20px;
   max-height: 200px;
   display: flex;
   justify-content: space-between; 
   align-items: center; 
+  border-bottom:5px solid #D9E7CB ;
 }
 
 .logo{
@@ -91,7 +92,7 @@ a{
   gap: 5px; /*gap video and text  */
   padding: 5px;
   margin: 20px;
-  background-color:#748c74;
+  background-color:#f2c92a;
   border-radius: 10px;
   height: 350px;
 }
@@ -121,7 +122,7 @@ a{
 
 .column {
   float: left;
-  width: 25%; /*change to 20% for showing 5rows in a column  */
+  width: 20%; /*change to 20% for showing 5rows in a column  */
 }
 
 .meal-container {
