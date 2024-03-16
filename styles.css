@@ -2,41 +2,34 @@
   font-family: 'Merriweather-Regular';
   src: url("font/Merriweather-Regular.ttf");
 }
-
 @font-face {
   font-family: 'Raleway-Thin';
   src: url("font/Raleway-Thin.ttf");
 }
-@font-face {
+/* @font-face {
   font-family: 'DancingScript-Regular';
   src: url("font/DancingScript-Regular.ttf");
-}
+} */
 
 body {
   margin: 5px;
   height: 100%;
   font-family: "Merriweather-Regular";
-  color: white;
+  color: #006e49;
   font-size: 20px;
-  background-color: #3f593f;
+  background-color: #ECDCC3;
 }
 
-h1{
+h1, h2{
   font-family:"Raleway-Thin";
   font-size: 30px;
-  color: white;
 }
 
-
-h2{
-  font-family: "DancingScript-Regular";
+/* h2{
+  font-family: "";
   font-size: 30px;
   margin: 12px;
-}
-
-a{
-  color: #DDBD7D;
-}
+} */
 
 .header {
   padding: 20px;
@@ -44,7 +37,7 @@ a{
   display: flex;
   justify-content: space-between; 
   align-items: center; 
-  border-bottom:5px solid #D9E7CB ;
+  /* border-bottom:5px solid #0B2A2C ; */
 }
 
 .logo{
@@ -59,8 +52,8 @@ a{
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  color: #131F0D;
-  background-color: #D9E7CB; 
+
+  background-color: #0B2A2C; 
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; 
   transition: 0.5s; 
@@ -69,14 +62,13 @@ a{
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
-  color: #3f593f;
+  color: #006e49;
   display: block;
   transition: 0.3s;
 }
 
 .sidenav a:hover {
-  color:#DDBD7D;
+  color: #FFB2C2;
 }
 
 .sidenav .closebtn {
@@ -86,25 +78,42 @@ a{
   font-size: 36px;
   margin-left: 50px;
 }
-.video-container {
+.video-text-container {
   display: flex;
   align-items: center;
-  gap: 5px; /*gap video and text  */
-  padding: 5px;
-  margin: 20px;
-  background-color:#f2c92a;
-  border-radius: 10px;
-  height: 350px;
+  gap: 25px; /*gap video and text  */
+  /* margin: 20px; */
+  /* border-radius: 10px; */
 }
 
 .video {
   flex: 1; 
-  /* border-radius: 10px; */
-  height: 350px;
+  background-color:#f2c92a;
+  border-radius: 15px 0 0 15px;
+  padding: 20px;
+  margin: 15px;
+  max-width: 600px;
+  height:350px;
 }
+/* .video iframe{
+   width:560px;
+  height:315px;
+} */
 
 .text {
   flex: 1;
+  background-color:#f2c92a;
+  border-radius: 0 15px 15px 0;
+  padding: 20px;
+  margin: 15px;
+  max-width: 950px;
+  height:350px;
+}
+
+.carwash-promo{
+  background-color:#f2c92a;
+  width: 20%;
+
 }
 
 * {
@@ -126,7 +135,7 @@ a{
 }
 
 .meal-container {
-  background-color: #3f593f;
+  background-color: #0B2A2C;
   padding: 10px;
   border-radius: 10px;
 }
@@ -140,8 +149,7 @@ a{
 footer {
   text-align: center;
   padding: 3px;
-  background: #55624C;
-  color: #D9E7CB;
+  background: #0B2A2C;
   position: fixed;
   bottom: 0;
   left: 0;
