@@ -6,16 +6,12 @@
   font-family: 'Raleway-Thin';
   src: url("font/Raleway-Thin.ttf");
 }
-/* @font-face {
-  font-family: 'DancingScript-Regular';
-  src: url("font/DancingScript-Regular.ttf");
-} */
 
 body {
-  margin: 5px;
+  margin: 0 auto;
   height: 100%;
   font-family: "Merriweather-Regular";
-  color: #006e49;
+  color: #028458;
   font-size: 22px;
   background-color: #ECDCC3;
 }
@@ -23,12 +19,16 @@ body {
 h1{
   font-family:"Raleway-Thin";
   font-size: 30px;
+  color: #028458;
+
 }
 
 h2{
   font-family:"Raleway-Thin";
   font-size: 30px;
   margin: 12px;
+  color: #028458;
+
 }
 
 * {
@@ -107,7 +107,6 @@ h2{
 
 .text {
   flex: 1;
-  /* background-color:#f2c92a; */
   border-radius: 0 30px 30px 0;
   padding: 20px;
   margin: 15px;
